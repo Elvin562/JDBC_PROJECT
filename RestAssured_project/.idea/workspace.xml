@@ -5,39 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4b92429-4cdc-49c8-887a-ae313547f880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ApiShorts/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiShorts/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiShorts/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiShorts/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiShorts/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiShorts/ApiShorts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ApiShorts/src/test/java/ApiTests/SpartansTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestAssured_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day1/Junit5_intro/Junit5_Intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Day1/Junit5_intro/TestLifecycleAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Day1/Junit5_intro/Junit5_Intro.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/test/java/day2/PracticeUtility_BookIt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/test/java/day2/PracticeUtility_Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/test/java/day2/PracticingUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/test/java/day2/UtilityRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/test/java/day3/SimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/test/java/day3/SpartanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/test/java/practice/day1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/test/java/utility/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/test/java/utility/DB_Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/TestConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/TestConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/day1/BootItDatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/day1/BootItDatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/day1/ConnectingByPropertiesFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/day1/ConnectingByPropertiesFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/day1/JDBC_FirstStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/day1/JDBC_FirstStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Day1/Junit5_intro/HamcrestMatchersIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day1/Junit5_intro/TestLifecycleAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day1/Junit5_intro/TestLifecycleAnnotations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.TestLifecycleAnnotations">
+  <component name="RunManager" selected="JUnit.HamcrestMatchersIntro.simpleTest1">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -78,6 +50,37 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamcrestMatchersIntro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day1.Junit5_intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day1.Junit5_intro" />
+      <option name="MAIN_CLASS_NAME" value="Day1.Junit5_intro.HamcrestMatchersIntro" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HamcrestMatchersIntro.simpleTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssured_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day1.Junit5_intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day1.Junit5_intro" />
+      <option name="MAIN_CLASS_NAME" value="Day1.Junit5_intro.HamcrestMatchersIntro" />
+      <option name="METHOD_NAME" value="simpleTest1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,22 +96,6 @@
       <option name="PACKAGE_NAME" value="Day1.Junit5_intro" />
       <option name="MAIN_CLASS_NAME" value="Day1.Junit5_intro.Junit5_Intro" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Junit5_Intro.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssured_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day1.Junit5_intro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Day1.Junit5_intro" />
-      <option name="MAIN_CLASS_NAME" value="Day1.Junit5_intro.Junit5_Intro" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,10 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HamcrestMatchersIntro.simpleTest1" />
+        <item itemvalue="JUnit.HamcrestMatchersIntro" />
         <item itemvalue="JUnit.TestLifecycleAnnotations" />
         <item itemvalue="JUnit.Junit5_Intro" />
         <item itemvalue="JUnit.Junit5_Intro.testName" />
-        <item itemvalue="JUnit.Junit5_Intro.test" />
       </list>
     </recent_temporary>
   </component>
@@ -161,8 +149,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616681598054</updated>
-      <workItem from="1616681600024" duration="3269000" />
+      <workItem from="1616681600024" duration="6125000" />
     </task>
+    <task id="LOCAL-00001" summary="Junit5">
+      <created>1616685802114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616685802115</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,5 +166,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Junit5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Junit5" />
   </component>
 </project>

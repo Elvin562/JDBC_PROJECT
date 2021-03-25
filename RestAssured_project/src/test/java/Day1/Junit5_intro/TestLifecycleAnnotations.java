@@ -53,6 +53,15 @@ After All is running
         System.out.println("Test 2 is running");
     }
 
+    //ignoring certain test
+    //using @Disabled annotaion
+    @Disabled
+    @Test
+    public void test3(){
+        System.out.println("Test 2 is running");
+    }
+
+
 
 }
 
