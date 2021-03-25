@@ -1,5 +1,9 @@
 package day1;
 
+import utility.ConfigurationReader;
+
+import java.sql.*;
+
 public class ConnectingByPropertiesFile {
 
     public static void main(String[] args) throws SQLException {
@@ -10,7 +14,7 @@ public class ConnectingByPropertiesFile {
 
         Connection con = DriverManager.getConnection(url, username, password) ;
         Statement stm = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
-        ResultSet  rs  = stm.executeQuery("SELECT * FROM EMPLOYEES") ;
+        ResultSet rs  = stm.executeQuery("SELECT * FROM EMPLOYEES") ;
 
         rs.next();
         System.out.println("rs.getString(2) = " + rs.getString(2) );

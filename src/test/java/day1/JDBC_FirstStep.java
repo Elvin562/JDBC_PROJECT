@@ -6,7 +6,7 @@ public class JDBC_FirstStep {
     public static void main(String[] args) throws SQLException{
 
 
-        String url = "jdbc:oracle:thin:@3.95.230.40:1521:XE";
+        String url = "jdbc:oracle:thin:@100.25.193.95:1521:XE";
         try {
             Connection con = DriverManager.getConnection(url, "HR", "hr");
 

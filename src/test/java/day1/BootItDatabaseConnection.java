@@ -1,5 +1,9 @@
 package day1;
 
+import utility.ConfigurationReader;
+
+import java.sql.*;
+
 public class BootItDatabaseConnection {
 
     public static void main(String[] args) throws SQLException {
